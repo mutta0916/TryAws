@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "fmt": "prettier --write src/**.js",
     "test": "node src/index.js"
   },
   "repository": {
@@ -18,5 +19,8 @@
   "homepage": "https://github.com/mutta0916/TryAws#readme",
   "dependencies": {
     "aws-sdk": "^2.984.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.3.2"
   }
 }
